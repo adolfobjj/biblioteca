@@ -35,14 +35,37 @@ Acesse a aplicação em um navegador web através do endereço http://localhost:
 Contribuindo
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, por favor, abra uma nova issue ou envie um pull request.
 
-## Endpoints para uso no postman(POST) :
-http://localhost:8080/livros </br>
+# Endpoints para uso no postman(método POST) :
+http://localhost:8080/livros </br></br>
 {</br>
     "titulo": "O Senhor dos Anéis",</br>
     "autor": "J.R.R. Tolkien",</br>
     "isbn": "978-0-618-05674-6"</br>
 }</br></br>
-http://localhost:8080/usuarios</br>
+http://localhost:8080/usuarios</br></br>
+{</br>
+    "nome": "João da Silva",</br>
+    "email": "joao.silva@example.com",</br>
+    "senha": "senha123"</br>
+}</br></br>
+http://localhost:8080/emprestimos</br></br>
+{</br>
+    "livro": {</br>
+        "id": 1,</br>
+        "titulo": "O Senhor dos Anéis",</br>
+        "autor": "J.R.R. Tolkien",</br>
+        "isbn": "978-0-618-05674-6"</br>
+    },</br>
+    "usuario": {</br>
+        "id": 1,</br>
+        "nome": "João da Silva",</br>
+        "email": "joao.silva@example.com",</br>
+        "senha": "senha123"</br>
+    },</br>
+    "dataEmprestimo": "2024-05-17",</br>
+    "dataDevolucao": "2024-06-17"</br>
+}</br>
+
 
 
 
