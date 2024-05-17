@@ -1,8 +1,8 @@
 # Sistema de Gerenciamento de Biblioteca
-Este é um projeto Java para um Sistema de Gerenciamento de Biblioteca, desenvolvido como parte de um estudo sobre desenvolvimento de aplicativos web utilizando tecnologias como Spring Boot, Thymeleaf, e banco de dados H2.
+Este é um projeto Java para um Sistema de Gerenciamento de Biblioteca, desenvolvido como parte de um estudo sobre desenvolvimento de aplicativos web utilizando tecnologias como Spring Boot, e banco de dados H2.
 
 ## Descrição
-O Sistema de Gerenciamento de Biblioteca permite que usuários cadastrem livros, realizem empréstimos e devoluções, e consultem o catálogo de livros disponíveis. A aplicação é construída usando Java com Spring Boot para o backend, e Thymeleaf para a camada de visualização.
+O Sistema de Gerenciamento de Biblioteca permite que usuários cadastrem livros, realizem empréstimos e devoluções, e consultem o catálogo de livros disponíveis. A aplicação é construída usando Java com Spring Boot para o backend.
 
 ## Funcionalidades
 Cadastro de livros: Adicione novos livros ao catálogo da biblioteca, incluindo título, autor e ISBN.
@@ -13,7 +13,6 @@ Histórico de empréstimos: Mantenha um registro de todos os empréstimos realiz
 ## Tecnologias Utilizadas
 Java
 Spring Boot
-Thymeleaf
 H2 Database (para facilitar o desenvolvimento e testes)
 Hibernate (para mapeamento objeto-relacional)
 ## Estrutura do Projeto
