@@ -35,5 +35,14 @@ Acesse a aplicação em um navegador web através do endereço http://localhost:
 Contribuindo
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, por favor, abra uma nova issue ou envie um pull request.
 
+## Endpoints para uso no postman(POST) :
+http://localhost:8080/livros </br>
+{</br>
+    "titulo": "O Senhor dos Anéis",</br>
+    "autor": "J.R.R. Tolkien",</br>
+    "isbn": "978-0-618-05674-6"</br>
+}</br></br>
+http://localhost:8080/usuarios</br>
+
 
 
